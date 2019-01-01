@@ -1,0 +1,15 @@
+{{#each ideas}}
+<div class="card-panel teal lighten-4">
+    <h5>{{title}}</h5>
+    <p>{{details}}</p>
+
+    <form action="ideas/{{id}}?_method=DELETE" method="POST" class="right">
+        <input type="hidden" name="_method" value="DELETE">
+        <input type="submit" value="DELETE" class="btn red white-text">
+    </form>
+    <a href="/ideas/edit/{{id}}" class="btn grey darken-4 white-text right" style="margin-right: 20px">Edit</a>
+    <div style="display: block; clear: both"></div>
+</div>
+{{else}}
+<p>No ideas in database.</p>
+{{/each}}
