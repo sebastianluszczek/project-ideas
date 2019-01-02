@@ -1,0 +1,11 @@
+.mt-3 {
+    margin-top: 3rem;
+}
+
+.card {
+    padding: 1rem;
+}
+
+.card-panel {
+    padding: 0.5rem !important;
+}

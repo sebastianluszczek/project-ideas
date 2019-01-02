@@ -1,24 +1,23 @@
 <div class="row">
     <div class="col s12 m8 offset-m2">
-        {{#each errors}}
-        <div class="card-panel red lighten-4">
-            <div class="red-text text-darken-4">{{text}}</div>
-        </div>
-        {{else}}
-        {{/each}}
+
         <div class="row">
-            <h2>Project Ideas</h2>
-            <form action="/ideas" method="POST">
-                <div class="input-field">
-                    <label for="title">Title</label>
-                    <input type="text" name="title" class="validate black-text">
+            <div class="card">
+                <div class="card-content">
+                    <h2>Project Ideas</h2>
+                    <form action="/ideas" method="POST">
+                        <div class="input-field">
+                            <label for="title">Title</label>
+                            <input type="text" name="title" class="validate black-text">
+                        </div>
+                        <div class="input-field">
+                            <textarea name="details" class="materialize-textarea black-text"></textarea>
+                            <label for="details">Details</label>
+                        </div>
+                        <input type="submit" value="ADD" class="btn leat darken-4 white-text ">
+                    </form>
                 </div>
-                <div class="input-field">
-                    <textarea name="details" class="materialize-textarea black-text"></textarea>
-                    <label for="details">Details</label>
-                </div>
-                <input type="submit" value="ADD" class="btn leat darken-4 white-text ">
-            </form>
+            </div>
         </div>
     </div>
 </div>
