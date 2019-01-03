@@ -5,7 +5,7 @@ Simple app for portfolio-projects-ideas-storidge with node.js, express, material
 
 ### In project i use:
 
-![alt text](./icons/html5.png "HTML5")
+![alt text](./icons/html5.png "HTML5" =64x64)
 ![alt text](./icons/css3.png "CSS3")
 ![alt text](./icons/javascript.png "JavaScript")
 ![alt text](./icons/icons/nodejs.png "node.js")
