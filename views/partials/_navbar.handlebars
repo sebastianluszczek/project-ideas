@@ -5,12 +5,17 @@
                 <a href="#" class="brand-logo">Projects Ideas</a>
                 <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
+
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li class="divider"></li>
+                    {{#if user}}
+                    <li><a href="/users/logout">Logout</a></li>
+                    <li><a href="#!" class="dropdown-trigger" data-target="dropdown-menu">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+                    {{else}}
                     <li><a href="/users/login">Login</a></li>
                     <li><a href="/users/register">Register</a></li>
-                    <li><a href="#!" class="dropdown-trigger" data-target="dropdown-menu">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+                    {{/if}}
                 </ul>
             </div>
         </div>
