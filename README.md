@@ -4,14 +4,13 @@ Simple app for portfolio-projects-ideas-storidge with node.js, express, material
 ---
 
 ### In project i use:
-
-![alt text](./icons/html5.png "HTML5" =64x64)
-![alt text](./icons/css3.png "CSS3")
-![alt text](./icons/javascript.png "JavaScript")
-![alt text](./icons/icons/nodejs.png "node.js")
-![alt text](./icons/express.png "Express")
-![alt text](./icons/icons/mongodb.png "MongoDB")
-![alt text](./icons/materializecss.png "MaterializeCSS")
+<img src="./icons/html5.png" alt="HTML5" width="64">
+<img src="./icons/css3.png" alt="CSS3" width="64">
+<img src="./icons/javascript.png" alt="JavaScript" width="64">
+<img src="./icons/icons/nodejs.png" alt="Node.js" width="64">
+<img src="./icons/express.png" alt="Express" width="64">
+<img src="./icons/icons/mongodb.png" alt="MongoDB" width="64">
+<img src="../icons/materializecss.png" alt="MaterializeCSS" width="64">
 
 ---
 
