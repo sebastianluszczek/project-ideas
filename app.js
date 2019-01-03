@@ -5,17 +5,24 @@ const mongoose = require('mongoose');
 const flash = require('connect-flash');
 const session = require('express-session');
 const bodyParser = require('body-parser');
+const passport = require('passport');
 const methodOverride = require('method-override');
 
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 // load routes
 const ideas = require('./routes/ideas');
 const users = require('./routes/users');
 
+// passport config
+require('./config/passport')(passport);
+
+// db config
+const db = require('./config/keys').MongoURI;
+
 // mongoose connection
-mongoose.connect('mongodb://localhost/proj_db', {
+mongoose.connect(db, {
         useNewUrlParser: true
     })
     .then(() => console.log('MongoDB connected....'))
@@ -50,6 +57,10 @@ app.use(session({
     saveUninitialized: true
 }));
 
+// passport middleware
+app.use(passport.initialize());
+app.use(passport.session());
+
 // connect flash middleware
 app.use(flash());
 
@@ -58,6 +69,7 @@ app.use((req, res, next) => {
     res.locals.success_msg = req.flash('success_msg');
     res.locals.error_msg = req.flash('error_msg');
     res.locals.error = req.flash('error');
+    res.locals.user = req.user || null;
     next();
 });
 
