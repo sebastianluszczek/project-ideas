@@ -12,6 +12,7 @@ Simple app for portfolio-projects-ideas-storidge with node.js, express, material
 <img src="./icons/express.png" alt="Express" width="64" style="display: inline">
 <img src="./icons/icons/mongodb.png" alt="MongoDB" width="64" style="display: inline">
 <img src="./icons/materializecss.png" alt="MaterializeCSS" width="64" style="display: inline">
+  <img src="./icons/handlebars.png" alt="Handlebars" width="64" style="display: inline">
 </p>
 
 ---
