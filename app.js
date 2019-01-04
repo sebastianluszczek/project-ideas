@@ -9,7 +9,7 @@ const passport = require('passport');
 const methodOverride = require('method-override');
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 
 // load routes
 const ideas = require('./routes/ideas');
