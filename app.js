@@ -19,7 +19,7 @@ const users = require('./routes/users');
 require('./config/passport')(passport);
 
 // db config
-const db = require('./config/keys').MongoURI;
+const db = require('./config/keys').mongoURI;
 
 // mongoose connection
 mongoose.connect(db, {
