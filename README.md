@@ -5,14 +5,12 @@ Simple app for portfolio-projects-ideas-storidge with node.js, express, material
 
 ### In project i use:
 <p style="float: left">
-<img src="./icons/html5.png" alt="HTML5" width="64" style="display: inline">
-<img src="./icons/css3.png" alt="CSS3" width="64" style="display: inline">
-<img src="./icons/javascript.png" alt="JavaScript" width="64" style="display: inline">
-<img src="./icons/icons/nodejs.png" alt="Node.js" width="64" style="display: inline">
-<img src="./icons/express.png" alt="Express" width="64" style="display: inline">
-<img src="./icons/icons/mongodb.png" alt="MongoDB" width="64" style="display: inline">
-<img src="./icons/materializecss.png" alt="MaterializeCSS" width="64" style="display: inline">
-  <img src="./icons/handlebars.png" alt="Handlebars" width="64" style="display: inline">
+<img src="./icons/icons/nodejs.png" alt="Node.js" height="64" style="display: inline">
+<img src="./icons/express.png" alt="Express" height="64" style="display: inline">
+<img src="./icons/icons/mongodb.png" alt="MongoDB" height="64" style="display: inline">
+<img src="./icons/icons/passport.png" alt="passportJS" height="64" style="display: inline">
+<img src="./icons/materializecss.png" alt="MaterializeCSS" height="64" style="display: inline">
+<img src="./icons/handlebars.png" alt="Handlebars" height="64" style="display: inline">
 </p>
 
 ---
